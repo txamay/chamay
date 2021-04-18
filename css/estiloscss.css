@@ -3,7 +3,7 @@
   font-family: 'Raleway', sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+ }
 
 h1 {
   font-size: larger;
@@ -14,22 +14,11 @@ h1 {
   margin-right: 2rem; }
 
 /*PROPIEDADES BARRA DE NAVEGACIÓN*/
-.menunav {
+.navbar navbar-expand-lg navbar-light bg-light {
   background-color: #f07809;
-  padding: 1rem;
-  width: 100%;
-  display: flex;
-  position: fixed;
-  justify-content: space-around;
-  align-items: center; }
-
-.menunav a {
-  /* Propiedades texto enlaces menú navegación */
   color: white;
-  letter-spacing: 0.25em; }
-
-.menunav__logo {
-  width: 80px; }
+  letter-spacing: 0.25em;
+}
 
 /* PROPIEDADES PÁGINA INDEX */
 .index_container {
@@ -258,17 +247,8 @@ td {
   padding: 1rem; }
 
 /* PROPIEDADES PÁGINA TAKEAWAY */
-.takeaway_container {
-  /*Aplicamos grid a la página takeaway*/
-  background-color: #FFFBBD;
-  display: grid;
-  grid-template-columns: repeat(20, 5fr);
-  justify-content: center;
-  grid-template-rows: repeat(20, 5fr); }
 
 .takeaway_container1 {
-  grid-column: 2/7;
-  grid-row: 1/4;
   background-image: url(../imagenes/duque_garcia_furgoneta2.png);
   background-size: 100% 100%; }
 
@@ -278,8 +258,6 @@ td {
   align-items: center;
   letter-spacing: 0.15em;
   font-size: 25px;
-  grid-column: 8/20;
-  grid-row: 2/4;
   color: #f07809; }
 
 .takeaway__container__producto1 {
@@ -287,8 +265,6 @@ td {
   padding: 2em;
   text-align: center;
   font-size: 16px;
-  grid-column: 2/7;
-  grid-row: 5/10;
   background-image: url("../imagenes/comida1.jpg");
   background-size: 100% 100%;
   color: azure; }
@@ -297,16 +273,12 @@ td {
   padding: 1em;
   text-align: left;
   font-size: 14px;
-  grid-column: 2/7;
-  grid-row: 10/11;
   background-color: #f07809; }
 
 .takeaway__container__producto2 {
   padding: 2em;
   text-align: center;
   font-size: 16px;
-  grid-column: 8/14;
-  grid-row: 5/10;
   background-image: url("../imagenes/comida2.jpg");
   background-size: 100% 100%; }
 
@@ -314,8 +286,6 @@ td {
   padding: 1em;
   text-align: left;
   font-size: 14px;
-  grid-column: 8/14;
-  grid-row: 10/11;
   background-color: #f07809; }
 
 .takeaway__container__producto3 {
@@ -323,8 +293,6 @@ td {
   padding: 2em;
   text-align: center;
   font-size: 16px;
-  grid-column: 15/20;
-  grid-row: 5/17;
   background-image: url("../imagenes/comida3.jpg");
   background-size: 250% 100%; }
 
@@ -332,8 +300,6 @@ td {
   padding: 1em;
   text-align: left;
   font-size: 14px;
-  grid-column: 15/20;
-  grid-row: 17/18;
   background-color: #f07809; }
 
 .takeaway__container__producto4 {
@@ -341,8 +307,6 @@ td {
   padding: 2em;
   text-align: center;
   font-size: 16px;
-  grid-column: 2/7;
-  grid-row: 12/17;
   background-image: url("../imagenes/comida4.jpg");
   background-size: 120% 100%; }
 
@@ -350,8 +314,6 @@ td {
   padding: 1em;
   text-align: left;
   font-size: 14px;
-  grid-column: 2/7;
-  grid-row: 17/18;
   background-color: #f07809; }
 
 .takeaway__container__producto5 {
@@ -359,8 +321,6 @@ td {
   padding: 2em;
   text-align: center;
   font-size: 16px;
-  grid-column: 8/14;
-  grid-row: 12/17;
   background-image: url("../imagenes/comida5.jpg");
   background-size: 100% 100%; }
 
@@ -368,8 +328,6 @@ td {
   padding: 1em;
   text-align: left;
   font-size: 14px;
-  grid-column: 8/14;
-  grid-row: 17/18;
   background-color: #f07809; }
 
 .takeaway__container__botones {
@@ -378,8 +336,7 @@ td {
   padding: 2em;
   text-align: center;
   font-size: 16px;
-  grid-column: 7/15;
-  grid-row: 19/20; }
+}
 
 /* PROPIEDADES PÁGINA EMPRESA */
 .empresa_container {
