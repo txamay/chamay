@@ -18,15 +18,15 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">Geeks</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
+                <ul class="navbar-nav">
+                   <li class="nav-item">
                   <a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="restaurantes.html">Restaurantes</a>
+                  <a class="nav-link active" href="restaurantes.html">Restaurantes</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="empresa.html">Empresa</a>
@@ -42,103 +42,98 @@
           </nav>
     </header>
 
-  <main class="restaurantes_container">
-    <div class="restaurantes_container1">
-        <img src="../imagenes/duque_garcia_fachada.jpg" alt="Foto de la fachada">
-    </div>
+<main class="container">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <img src="../imagenes/duque_garcia_fachada.jpg" class="img-fluid" alt="imagen de fachada">
+            </div>
+            <div class="col-sm">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5826151.7973285895!2d-5.167625035191548!3d44.51923585519968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42294d935b58b5%3A0x4e816ebd9b9e4ec2!2sGeek-Science!5e0!3m2!1ses!2ses!4v1614895792810!5m2!1ses!2ses" 
+                width="100%" height="100%"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p id="restaurantes_encontrarnos">Puedes encontrarnos en las siguientes provincias:</p>
+            </div>
+            <div class="col">
+                <form id="restaurantes_desplegable">
+                    <select name="menu" id="restaurantes_container3_select">
+                        <option>Madrid</option>
+                        <option>Barcelona</option>
+                        <option>Sevilla</option>
+                        <option>Valencia</option>
+                        <option>Baleares</option>
+                        <option>Bilbao</option>
+                        </select>
+                </form>
+        </div>
 
-    <div class="restaurantes_container2">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5826151.7973285895!2d-5.167625035191548!3d44.51923585519968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42294d935b58b5%3A0x4e816ebd9b9e4ec2!2sGeek-Science!5e0!3m2!1ses!2ses!4v1614895792810!5m2!1ses!2ses" 
-         width="100%" height="100%"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            
+        </div>
+
+
     </div>
-    <div class="restaurantes_container4">
-        Puedes encontrarnos en las siguientes provincias
-    </div>
-    <form class="restaurantes_container3">
-        <select name="menu" id="restaurantes_container3_select">
-            <option>Madrid</option>
-            <option>Barcelona</option>
-            <option>Sevilla</option>
-            <option>Valencia</option>
-            <option>Baleares</option>
-            <option>Bilbao</option>
-            </select>
-    </form>
-    <div class="restaurantes_container5">
-        <p id="restaurantes_nombreRestaurante">
-            Geeks Latina
-        </p>
-        <p>
-            c/GranTurismo, 42
-        </p>
-        <p>
-           28001 Barcelona
-        </p>
-        <p>
-            Tel. 699 99 44 44
-        </p>       
-    </div>
-    <div class="restaurantes_container6">
-        <p id="restaurantes_nombreRestaurante">
-            Geeks Salamanca
-        </p>
-        <p>
-            c/Hyrule,1
-        </p>
-        <p>
-            28660 Madrid
-        </p>
-        <p>
-            Tel. 699 99 44 44
-        </p>       
-    </div>
-    <div class="restaurantes_container7">
-        <p id="restaurantes_nombreRestaurante">
-            Geeks Boadilla
-        </p>
-        <p>
-            c/Tetris, 42
-        </p>
-        <p>
-            28660 Boadilla
-        </p>
-        <p>
-            Tel. 699 99 44 44
-        </p>       
-    </div>
-    <div class="restaurantes_container8">
-        <p id="restaurantes_nombreRestaurante">
-            Geeks Las Rozas
-        </p>
-        <p>
-            c/Pacman,3
-        </p>
-        <p>
-            28232 Las Rozas
-        </p>
-        <p>
-            Tel. 699 99 44 44
-        </p>       
-    </div>
+    <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="../imagenes/madrid.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Geeks Latina</h5>
+              <p class="card-text">c/Gothan,1</p>
+              <p class="card-text">28001 Madrid</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="../imagenes/sevilla.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Geeks Sevilla</h5>
+              <p class="card-text">c/Pacman,3</p>
+              <p class="card-text">41001 Sevilla</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="../imagenes/barcelona.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Geeks Barcelona</h5>
+              <p class="card-text">c/Gran Turismo,42</p>
+              <p class="card-text">08080 Barcelona</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="../imagenes/bilbao.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Geeks Bilbao</h5>
+              <p class="card-text">c/Avengers,1</p>
+              <p class="card-text">48002 Bilbao</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
 
   </main>
-  <footer class="container">
+  <footer class="container" id="footer">
     <div class="row">
-        <div class="col-1">
-            Icono1
+        <div class="col">
+            <a href="www.twitter.com">Twitter</a>
         </div>
-        <div class="col-1">
-            Icono2
+        <div class="col">
+            <a href="www.twitter.com">Facebook</a>
         </div>
-        <div class="col-1">
-            Icono3
+        <div class="col">
+            <a href="www.twitter.com">Instagram</a>
         </div>
-        <div class="col-1">
-            Icono4
-        </div>
-        <div class="col-1">
-            Icono5
-        </div>
+
         <div class="col-7">
             Esta web es propiedad de Pilar Duque García . Realizada para trabajo Desarrollo Web en Coderhouse. Imágenes propias 
         </div>

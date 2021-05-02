@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> 
     <link rel="stylesheet" href="../css/estiloscss.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
     </style>
@@ -14,10 +14,10 @@
 
 <body>
 
-    <header>
+<header>
         <!-- DEFINIMOS CONTENIDO BARRA DE MENÚ-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Geeks</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:#f07809">
+            <a class="navbar-brand" href="/imagenes/logo_cabecera.png">Geeks</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -41,142 +41,92 @@
               </ul>
             </div>
           </nav>
-    <h1>I</h1>
-    </header>
+</header>
 
-    <main>
+<main>
+    <div class="container">
         <div class="header__titulo">
             Geeks: Food & games
         </div>
-        <div class="index_container" >
-              <!-- CONTENIDO ENLACE A CARTA RESTAURANTE-->
+        <div class="row">
+            <div class="col">
                 <div class="main-div__carta">
                     <div id="main-div__carta--titulosize">Consulta nuestra carta</div>
                     <div> <img class="index_container1_imagen" src="imagenes/carta_icono3.png" alt=""> </div>
-                    <div class="main-div_carta--botondesign"> Descargar </div>
+                    <button type="button" class="btn btn-outline-primary">Descargar</button>
+            </div>
+        </div>
+            <div class="col">   
+                <div class="index_container2">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col">Torneo Tetris</th>
+                            <th scope="col">Ronda 1</th>
+                            <th scope="col">Ronda 2</th>
+                            <th scope="col">Ronda 3</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">1º clasificado</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2º clasificado</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3º clasificado</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
+                        </tbody>
+                    </table>
                 </div>
-                        
-                <!-- CONTENIDO SECCIÓN CARTA DE JUEGOS (TABLA)-->
-                <div class="main-div__juegos">
-                        <p>Carta de juegos</p>
-                        <table class="index_container2_tabla">
-                            <tr>
-                                <th>Nombre</th>
-                                <th>Información</th>
-                                <th>Características</th>
-                                <th>Comentarios</th>
-                            </tr>
-                            <tr >
-                                <td>Zelda</td>
-                                <td>
-                                    <ul class="listas">
-                                        <li>Año 2018</li>
-                                        <li>Switch</li>
-                                        <li>Rol/Aventura</li>
-                                    </ul>
-                                </td>
-                                <td>Mundo abierto</td>
-                                <td>
-                                    <ol class="listas">
-                                        <li>Jugar en familia</li>
-                                        <li>Horas de diversión</li>
-                                        <li>Ampliable</li>
-                                    </ol>
-                                </td>    
-                            </tr>
-                            <tr>
-                                <td>Fortnite</td>
-                                <td>
-                                    <ul class="listas">
-                                        <li>Año 2017</li>
-                                        <li>Playstation</li>
-                                        <li>Acción</li>
-                                    </ul>
-                                </td>
-                                <td>Online</td>
-                                <td>
-                                    <ol class="listas">
-                                        <li>Juego en grupo</li>
-                                        <li>Mayores 16</li>
-                                        <li>Pase de temporada</li>
-                                    </ol>
-                                </td>    
-                            </tr>
-                            <tr>
-                                <td>Tetris</td>
-                                <td>
-                                    <ul class="listas">
-                                        <li>Año 1980</li>
-                                        <li>MAME/li>
-                                        <li>Puzzle</li>
-                                    </ul>
-                                </td>
-                                <td>Retro</td>
-                                <td>
-                                    <ol class="listas">
-                                        <li>Two players</li>
-                                        <li>Clásicos</li>
-                                    </ol>
-                                </td>    
-                            </tr>  
-                        </table> 
-                </div>
-                <div class="index_container3">
-                    <p>
-                     Geeks nace en Hyrule en 2018 inspirado en los famosos Barcades americanos.
-                    </p>
-                    <p>
-                        Ven y podrás disfrutar de una experiencia de ocio única jugando a famosos videojuegos de ahora y siempre mientras degustas nuestra genuina comida americana acompañada de una extensa cartas de cerveza. 
-                    </p>
-                    <p>
-                    Cada mesa del restaurante es una máquina arcade con un amplio catálogo de juegos que podrás difrutar sin cargo adiccional.
-                    </p>
-                    <p>
-                    Pero Geeks es más aún. Podrás celebrar con nosotros tu cumpleaños, tu despedida de soltera u organizar una liga privada entre amigos.
-                    </p>
-                    <p>
-                    Si tu panda nos son gamers no es problema. En Geeks organizamos constantemente actividades a las que podrás apuntarte sólo o en compañía: presentaciones de videojuegos, torneos, realidad virtual... Consulta con frecuencia nuestra web y estarás al tanto de lo que se cuece.
-                    </p>
-                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container" id="index_texto">
+                <p>Geeks nace en Hyrule en 2018 inspirado en los famosos Barcades americanos.</p>
+                <p>Cada mesa del restaurante es una máquina arcade con un amplio catálogo de juegos que podrás difrutar sin cargo adiccional. </p>
+                <p>Pero Geeks es más aún. Podrás celebrar con nosotros tu cumpleaños, tu despedida de soltera u organizar una liga privada entre amigos. </p>
+                <p>Si tu panda nos son gamers no es problema. En Geeks organizamos constantemente actividades a las que podrás apuntarte sólo o en compañía: presentaciones de videojuegos, torneos, realidad virtual... Consulta con frecuencia nuestra web y estarás al tanto de lo que se cuece. </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
                 <div class="index_container4">
                     <span class="index_container4_novedad">NOVEDAD</span>
-
-
                 </div>
+            </div>
+            <div class="col">
                 <div class="index_container5">
-                   <p id="menu">Menú</p>
-                   <p id="diario">diario</p>
-                   <p id="euros"> por solo 11€</p>
+                    <p id="menu">Menú</p>
+                    <p id="diario">diario</p>
+                    <p id="euros"> por solo 11€</p>
                 </div>
+            </div>
+        </div>
+    </div>
 
-                <div class="index_container6">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit ea corrupti accusantium eius odio quas blanditiis voluptates consequuntur earum soluta nesciunt, at iusto pariatur doloribus obcaecati laborum non aperiam quaerat.
-                    Rem, id. Assumenda deserunt nihil dignissimos repellat nemo voluptates accusamus recusandae, obcaecati delectus voluptas rerum iusto accusantium vitae maiores amet rem. Fugit earum maxime et vel delectus, laboriosam molestias nemo.
-                    Harum ut perferendis et. Voluptatum numquam facilis architecto, enim delectus expedita quidem nesciunt iste, consectetur ducimus molestiae voluptates nam sunt laboriosam fugit, ab dolor officiis explicabo quaerat. Quibusdam, iste dolores.
-                    Repellat, ullam unde perferendis, esse illo assumenda laborum accusantium reprehenderit consequatur cupiditate maxime laudantium quis repellendus est necessitatibus libero, dolorum beatae eum harum dolores eligendi expedita quisquam vitae ab! Vel?
-                    Possimus dolorem eligendi laboriosam ex suscipit soluta, est incidunt porro et, numquam laudantium dolorum voluptatem asperiores modi? Iste velit assumenda at, perferendis ducimus autem aspernatur? Voluptas iure minus tempore quis.
-                </div>
-
-            </div>      
-</main>
-    
-<footer class="container">
+<footer class="container" id="footer">
     <div class="row">
-        <div class="col-1">
-            Icono1
+        <div class="col">
+            <a href="www.twitter.com">Twitter</a>
         </div>
-        <div class="col-1">
-            Icono2
+        <div class="col">
+            <a href="www.twitter.com">Facebook</a>
         </div>
-        <div class="col-1">
-            Icono3
+        <div class="col">
+            <a href="www.twitter.com">Instagram</a>
         </div>
-        <div class="col-1">
-            Icono4
-        </div>
-        <div class="col-1">
-            Icono5
-        </div>
+
         <div class="col-7">
             Esta web es propiedad de Pilar Duque García . Realizada para trabajo Desarrollo Web en Coderhouse. Imágenes propias 
         </div>

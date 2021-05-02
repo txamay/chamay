@@ -22,7 +22,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
-                <li class="nav-item active">
+                <li class="nav-item">
                   <a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
@@ -32,7 +32,7 @@
                   <a class="nav-link" href="empresa.html">Empresa</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="takeaway.html">Take away</a>
+                  <a class="nav-link active" href="takeaway.html">Take away</a>
                 <li class="nav-item">
                   <a class="nav-link" href="begeek.html">BeGeek</a>
                 </li>
@@ -45,93 +45,96 @@
 <main>
     
     <div class="container"> 
-        <div class="row">
-            <div class="col">
-                <div class="takeaway__container__titulo"> 
-                    Hoy en Geeks tenemos disponible para llevar...
-                </div>
-            </div>
+        <div class="takeaway__container__titulo"> 
+            Hoy en Geeks tenemos disponible para llevar...
         </div>
-        <div class="row">
-            <div class="col-4">
-                <div class="card">
-                    <img src="/imagenes/comida4.jpg" class="card-img-top" alt="...">
+        <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+                <div class="card h-100">
+                    <img src="../imagenes/comida1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                    <p class="card-text">Ensalada de pollo crujiente acompañada de salsa Cesar</p>
-                </div>
-            </div>     
-
-            <div class="col-4">
-                <div class="card">
-                    <img src="/imagenes/comida5.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <p class="card-text">Costillas barbacoa con salsa Honey</p>
-                </div>
-            </div>     
-
-            <div class="col-4">
-                <div class="card">
-                    <img src="/imagenes/comida2.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <p class="card-text">Hamburguesa de setas con salsa de trufa</p>
-                </div>
-            </div>     
-        </div>
-
-        <div class="row">
-            <div class="col-4">
-                <div class="card" >
-                    <img src="/imagenes/hamburguesa_novedad.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">Nuestra genuina hamburguesa de ternera con cebolla caramelizada y queso cheddar</p>
+                        <h5 class="card-title">Cuarto de libra</h5>
+                        <p class="card-text">La hamburguesa más tradiccional. Deliciosa carne a la parrilla con tomate, cebolla y pepinillo</p>
                     </div>
-                  </div>                 
                 </div>
             </div>
-
-            <div class="col-4">
-                <div class="card">
-                    <img src="/imagenes/comida1.jpg" class="card-img-top" alt="...">
+            <div class="col mb-4">
+                <div class="card h-100">
+                    <img src="../imagenes/comida2.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <p class="card-text">Hamburguesa de pollo de corral con tomate de la huerta y lechuga batavia. Una delicia</p>
+                        <h5 class="card-title">Geek king</h5>
+                        <p class="card-text">200 gr de carne de buey a la parrilla acompañada de queso Havarty, cebolla caramelizada y nuestra salsa especial</p>
                     </div>
-                </div>                 
+                </div>
             </div>
-
-            <div class="col-4">
-                <div class="card">
-                    <img src="/imagenes/comida3.jpg" class="card-img-top" alt="...">
+            <div class="col mb-4">
+                <div class="card h-100">
+                    <img src="../imagenes/comida3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <p class="card-text">Patatas legendarias acompañadas de nuestras salsas</p>
+                        <h5 class="card-title">Patatas supreme</h5>
+                        <p class="card-text">Acompaña tu comida de las deliciosas patatas supreme con un toque de ajo y pimentón. Escoge dos salsas .</p>
                     </div>
-                </div>                   
+                </div>
             </div>
-        </div>
+            <div class="col mb-4">
+                <div class="card h-100">
+                    <img src="../imagenes/comida4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ensalada Cesar</h5>
+                        <p class="card-text">La mejor opción para cuidarte y disfrutar de una deliciosa ensalada acompañada de salsa Cesar y pollo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card h-100">
+                    <img src="../imagenes/comida5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Costillas Honey</h5>
+                        <p class="card-text">Costillas asadas en horno de leña bañadas en salsa barbacoa con miel. Acompañadas de mazorca de maíz o ensalada.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card h-100">
+                    <img src="../imagenes/comida6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tortitas con arándanos</h5>
+                        <p class="card-text">La mejor forma de terminar. Tortitas con arándanos, nata y salsa de caramelo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="takeaway_conjuntobotones">
+                <input id="takeaway_botones" class="btn btn-primary" type="submit" value="Hacer pedido">
+                <input id="takeaway_botones" class="btn btn-primary" type="reset" value="Borrar carro">  
+            </div>
+        </div>   
 
-        <div class="row">
-            <div class="col">
-                    zona botones
-            </div>
+
+
+
+
+        <div id="takeaway_conjuntobotones">
+    
         </div>
     </div>
 </main>
-    <footer class="container">
+
+
+
+
+
+<footer class="container" id="footer">
     <div class="row">
-        <div class="col-1">
-            Icono1
+        <div class="col">
+            <a href="www.twitter.com">Twitter</a>
         </div>
-        <div class="col-1">
-            Icono2
+        <div class="col">
+            <a href="www.twitter.com">Facebook</a>
         </div>
-        <div class="col-1">
-            Icono3
+        <div class="col">
+            <a href="www.twitter.com">Instagram</a>
         </div>
-        <div class="col-1">
-            Icono4
-        </div>
-        <div class="col-1">
-            Icono5
-        </div>
+
         <div class="col-7">
             Esta web es propiedad de Pilar Duque García . Realizada para trabajo Desarrollo Web en Coderhouse. Imágenes propias 
         </div>
